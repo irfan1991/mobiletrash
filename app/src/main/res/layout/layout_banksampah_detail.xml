@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/imgFotoBank"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/txtNamaBank"
+        android:layout_below="@+id/imgFotoBank"
+        android:text="Nama Bank Sampah"
+        android:textStyle="bold"
+        android:textSize="17dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/txtLokasi"
+        android:layout_below="@+id/txtNamaBank"
+        android:text="Lokasi"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/txtDeskripsi"
+        android:layout_below="@+id/txtLokasi"
+        android:textAlignment="inherit"
+        android:text="Lokasi"
+        android:textSize="13dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnPetunjukArah"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:background="@color/colorPrimary"
+        android:text="Dapatkan Petunjuk Arah"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:layout_below="@+id/txtDeskripsi"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnJoin"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:background="@color/colorPrimary"
+        android:text="Gabung Dengan Bank Sampah"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:layout_below="@+id/btnPetunjukArah"/>
+
+</RelativeLayout>

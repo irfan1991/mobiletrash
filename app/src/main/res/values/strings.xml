@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Trashpedia</string>
+
+    <string-array name="provinsi">
+        <item>Jawa Barat</item>
+        <item>Jawa Timur</item>
+        <item>Jawa Tengah</item>
+    </string-array>
+
+    <string name="about1">
+        Trashpedia adalah aplikasi berbasis web dan mobile untuk membantu manajemen bank sampah.
+    </string>
+    <string name="about2">
+        Memudahkan transaksi nasabah Memudahkan mengetahui saldo tabungan dan penarikannya Memudahkan untuk menjadi bank sampah.
+    </string>
+    <string name="about3">
+        Aplikasi ini adalah aplikasi management bank sampah yang dapat digunakan untuk memudahkan kita menjalankan program bank sampah, mengetahui lokasi bank sampah, mempublikasi kegiatan, dan memasarkan hasil kerajinan bank sampah.
+    </string>
+
+    <string-array name="bank">
+        <item>Pilih Bank</item>
+        <item>BNI</item>
+        <item>MANDIRI</item>
+        <item>BUKOPIN</item>
+        <item>BCA</item>
+        <item>MUAMALAT</item>
+
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

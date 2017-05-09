@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<item android:title="Profil"
+        android:icon="@mipmap/ic_profile"
+        android:id="@+id/nav_user"/> -->
+
+    <item android:title="Beranda"
+        android:icon="@drawable/ic_home"
+        android:id="@+id/nav_beranda"/>
+
+    <item android:title="Data Sampah"
+        android:icon="@mipmap/ic_form"
+        android:id="@+id/nav_form"/>
+
+    <item android:title="Tarik Dana"
+        android:icon="@drawable/tarik"
+        android:id="@+id/nav_tarik"/>
+
+    <item android:title="Cari Bank Sampah"
+        android:icon="@drawable/map"
+        android:id="@+id/nav_cari"/>
+  <!--  <item android:title="Keranjang"
+        android:icon="@drawable/shopping"
+        android:id="@+id/nav_keranjang"/>-->
+    <item android:title="Histori"
+        android:icon="@drawable/histori"
+        android:id="@+id/nav_histori"/>
+
+    <item android:title="Bagikan"
+        android:icon="@mipmap/ic_share"
+        android:id="@+id/nav_bagikan"/>
+
+    <item android:title="Jemput Sampah"
+        android:icon="@mipmap/ic_call"
+        android:id="@+id/nav_call"/>
+
+    <item android:title="About"
+        android:icon="@drawable/about"
+        android:id="@+id/nav_about"/>
+
+    <item android:title="Logout"
+        android:icon="@drawable/exit_bghitam"
+        android:id="@+id/nav_logout"/>
+
+</menu>

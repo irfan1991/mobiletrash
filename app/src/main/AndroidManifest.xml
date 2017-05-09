@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="andara.heatcliff.yuclean">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:name=".Cari.Controller"
+        android:allowBackup="true"
+        android:icon="@drawable/logot"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.Splash">
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login.LoginActivity"
+            android:theme="@style/AppTheme.Splash" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".RegistrasiActivity"
+            android:label="Registrasi"
+            android:parentActivityName=".Login.LoginActivity"
+            android:theme="@style/AppTheme.Splash" />
+        <activity
+            android:name=".RegistrasiWebViewActivity"
+            android:label="Registrasi"
+            android:parentActivityName=".Login.LoginActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".DetailBankActivity"
+            android:label="Detail Bank Sampah"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".TarikDanaActivity"
+            android:label="Tarik Dana"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Menu.UserProfilFragment"
+            android:label="Profil"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Cari.CariActivity"
+            android:label="Cari Lokasi Bank Sampah"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Histori.HistoriActivity"
+            android:label="Data Transaksi"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".DetailLokasiActivity"></activity>
+    </application>
+
+</manifest>
